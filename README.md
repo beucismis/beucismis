@@ -1,0 +1,1 @@
+Ever since I joined GitHub **6** years ago, I pushed **854** commits, opened **48** issues, submitted **26** pull requests, received **304** stars across **22** personal projects, and contributed to **20** public repositories.
