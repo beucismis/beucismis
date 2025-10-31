@@ -25,8 +25,7 @@ Ever since I joined GitHub **6** years ago, I pushed **1359** commits, opened **
         - <a href="https://github.com/beucismis/koyunkapan">koyunkapan</a> - Source code for u/koyunkapan
       </td>
       <td>
-        <!-- BLOG-POST-LIST:START -->
-        <!-- BLOG-POST-LIST:END -->
+        <!-- BLOG-POST-LIST:START -->- DD 000, YYYY - [Hayatın Anlamının Bencesi](/posts/hayatin-anlaminin-bencesi/) <br/>- DD 000, YYYY - [Lehimle Bi&#39; Şeyler Yaptım](/posts/lehimle-bi-seyler-yaptim/) <br/>- DD 000, YYYY - [Caddy Server Yetkilendirme](/posts/caddy-server-auth/) <br/>- DD 000, YYYY - [Git Notları](/posts/git-notes/) <br/>- DD 000, YYYY - [TV Dizileri](/posts/tv-show/) <br/><!-- BLOG-POST-LIST:END -->
       </td>
     </tr>
   </tbody>
