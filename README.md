@@ -1,6 +1,6 @@
 ### Hey!
 
-Ever since I joined GitHub **6** years ago, I pushed **1355** commits, opened **57** issues, submitted **26** pull requests, received **599** stars across **19** personal projects, and contributed to **6** public repositories.
+Ever since I joined GitHub **6** years ago, I pushed **1355** commits, opened **57** issues, submitted **26** pull requests, received **600** stars across **19** personal projects, and contributed to **6** public repositories.
 
 ### Projects
 
