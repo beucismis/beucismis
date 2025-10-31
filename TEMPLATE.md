@@ -5,6 +5,12 @@ Ever since I joined GitHub **6** years ago, I pushed **{{ COMMITS }}** commits, 
 ### Projects
 
 <table>
+  <thead>
+    <tr>
+      <th>Projects</th>
+      <th>Latest Blog Posts</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
       <td>
@@ -17,6 +23,10 @@ Ever since I joined GitHub **6** years ago, I pushed **{{ COMMITS }}** commits, 
         - <a href="https://github.com/beucismis/tinyfetch">tinyfetch</a> - Python and system information command-line fetch tool <br/>
         - <a href="https://github.com/beucismis/devil">devil</a> - Simple blog theme for Hugo <br/>
         - <a href="https://github.com/beucismis/koyunkapan">koyunkapan</a> - Source code for u/koyunkapan
+      </td>
+      <td>
+        <!-- BLOG-POST-LIST:START -->
+        <!-- BLOG-POST-LIST:END -->
       </td>
     </tr>
   </tbody>
