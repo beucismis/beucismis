@@ -22,5 +22,5 @@ jobs:
         with:
           max_post_count: 10
           feed_list: "https://blog.beucismis.org/posts/index.xml"
-          date_format: "DD MMM, YYYY"
+          date_format: "d mmm, yyyy"
           template: "- $date, <a href='https://blog.beucismis.org$url'>$title</a> <br/>"
