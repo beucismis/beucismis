@@ -22,8 +22,7 @@ Ever since I joined GitHub **6** years ago, I pushed **1365** commits, opened **
         - <a href="https://github.com/beucismis/koyunkapan">koyunkapan</a> - Source code for u/koyunkapan
       </td>
       <td valign="top">
-        <!-- BLOG-POST-LIST:START -->
-        <!-- BLOG-POST-LIST:END -->
+        <!-- BLOG-POST-LIST:START -->- DD 000, YYYY, <a href='https://blog.beucismis.org/posts/hayatin-anlaminin-bencesi/'>Hayatın Anlamının Bencesi</a> <br/>- DD 000, YYYY, <a href='https://blog.beucismis.org/posts/lehimle-bi-seyler-yaptim/'>Lehimle Bi&#39; Şeyler Yaptım</a> <br/>- DD 000, YYYY, <a href='https://blog.beucismis.org/posts/caddy-server-auth/'>Caddy Server Yetkilendirme</a> <br/>- DD 000, YYYY, <a href='https://blog.beucismis.org/posts/git-notes/'>Git Notları</a> <br/>- DD 000, YYYY, <a href='https://blog.beucismis.org/posts/tv-show/'>TV Dizileri</a> <br/>- DD 000, YYYY, <a href='https://blog.beucismis.org/posts/kibris-dortlusu-hayalin/'>Kıbrıs Dörtlüsü - Hayalin &lpar;1980&rpar; Şarkı Sözleri</a> <br/>- DD 000, YYYY, <a href='https://blog.beucismis.org/posts/evde-sushi-yaptim/'>Evde Sushi Yaptım</a> <br/>- DD 000, YYYY, <a href='https://blog.beucismis.org/posts/pilav-tarifi/'>Pilav Tarifi</a> <br/>- DD 000, YYYY, <a href='https://blog.beucismis.org/posts/music-player/'>Yıl Olmuş 2025, Müzik Oynatıcı Mı Kullanıyorsun?</a> <br/>- DD 000, YYYY, <a href='https://blog.beucismis.org/posts/custom-rom-guide-with-crdroid/'>crDroid ile Custom ROM Rehberi</a> <br/><!-- BLOG-POST-LIST:END -->
       </td>
     </tr>
   </tbody>
