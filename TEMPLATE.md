@@ -10,8 +10,7 @@ Ever since I joined GitHub **6** years ago, I pushed **{{ COMMITS }}** commits, 
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>
+      <td valign="top">
         - <a href="https://github.com/beucismis/dotfiles">dotfiles</a> - My dotfiles configuration for GNU/Linux <br/>
         - <a href="https://github.com/beucismis/awesome-fetch">awesome-fetch</a> - Command-line fetch tools for system/other information <br/>
         - <a href="https://github.com/beucismis/ozgursozluk">ozgursozluk</a> - Free alternative Ekşi Sözlük front-end <br/>
@@ -22,7 +21,7 @@ Ever since I joined GitHub **6** years ago, I pushed **{{ COMMITS }}** commits, 
         - <a href="https://github.com/beucismis/devil">devil</a> - Simple blog theme for Hugo <br/>
         - <a href="https://github.com/beucismis/koyunkapan">koyunkapan</a> - Source code for u/koyunkapan
       </td>
-      <td>
+      <td valign="top">
         <!-- BLOG-POST-LIST:START -->
         <!-- BLOG-POST-LIST:END -->
       </td>
