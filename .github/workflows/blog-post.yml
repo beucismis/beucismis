@@ -18,7 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Pull posts
-        uses: gautamkrishnar/blog-post-workflow@v1
+        uses: gautamkrishnar/blog-post-workflow@v2
         with:
           feed_list: "https://blog.beucismis.org/posts/index.xml"
           date_format: "DD MMM, YYYY"
