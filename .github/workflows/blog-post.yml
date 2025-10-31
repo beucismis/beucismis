@@ -18,8 +18,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Pull posts
-        uses: gautamkrishnar/blog-post-workflow@v2
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
+          max_post_count: 10
           feed_list: "https://blog.beucismis.org/posts/index.xml"
           date_format: "DD MMM, YYYY"
           template: "- $date, <a href='https://blog.beucismis.org$url'>$title</a> <br/>"
