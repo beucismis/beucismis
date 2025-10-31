@@ -22,4 +22,4 @@ jobs:
         with:
           feed_list: "https://blog.beucismis.org/posts/index.xml"
           date_format: "DD MMM, YYYY"
-          template: "- $date - [$title]($url) <br/>"
+          template: "- $date, <a href='https://blog.beucismis.org$url'>$title</a> <br/>"
