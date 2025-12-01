@@ -1,6 +1,6 @@
 ### Hey!
 
-Ever since I joined GitHub **6** years ago, I pushed **1413** commits, opened **64** issues, submitted **26** pull requests, received **614** stars across **23** personal projects, and contributed to **10** public repositories.
+Ever since I joined GitHub **6** years ago, I pushed **1414** commits, opened **64** issues, submitted **26** pull requests, received **615** stars across **23** personal projects, and contributed to **10** public repositories.
 
 <table>
   <thead>
@@ -22,7 +22,8 @@ Ever since I joined GitHub **6** years ago, I pushed **1413** commits, opened **
         - <a href="https://github.com/beucismis/koyunkapan">koyunkapan</a> - Source code for u/koyunkapan
       </td>
       <td valign="top">
-        <!-- BLOG-POST-LIST:START -->- <a href='https://blog.beucismis.org/posts/muzik-dinlemenin-bencesi/'>Müzik Dinlemenin Bencesi</a> (31 Oct, 2025) <br/>- <a href='https://blog.beucismis.org/posts/hayatin-anlaminin-bencesi/'>Hayatın Anlamının Bencesi</a> (22 Oct, 2025) <br/>- <a href='https://blog.beucismis.org/posts/lehimle-bi-seyler-yaptim/'>Lehimle Bi&#39; Şeyler Yaptım</a> (19 Oct, 2025) <br/>- <a href='https://blog.beucismis.org/posts/caddy-server-auth/'>Caddy Server Yetkilendirme</a> (12 Oct, 2025) <br/>- <a href='https://blog.beucismis.org/posts/git-notes/'>Git Notları</a> (22 Sep, 2025) <br/>- <a href='https://blog.beucismis.org/posts/tv-show/'>TV Dizileri</a> (22 Sep, 2025) <br/>- <a href='https://blog.beucismis.org/posts/kibris-dortlusu-hayalin/'>Kıbrıs Dörtlüsü - Hayalin &lpar;1980&rpar; Şarkı Sözleri</a> (19 Sep, 2025) <br/>- <a href='https://blog.beucismis.org/posts/evde-sushi-yaptim/'>Evde Sushi Yaptım</a> (18 Sep, 2025) <br/>- <a href='https://blog.beucismis.org/posts/pilav-tarifi/'>Pilav Tarifi</a> (12 Sep, 2025) <br/>- <a href='https://blog.beucismis.org/posts/music-player/'>Yıl Olmuş 2025, Müzik Oynatıcı Mı Kullanıyorsun?</a> (11 Sep, 2025) <br/><!-- BLOG-POST-LIST:END -->
+        <!-- BLOG-POST-LIST:START -->
+        <!-- BLOG-POST-LIST:END -->
       </td>
     </tr>
   </tbody>
