@@ -1,0 +1,538 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on beucismis blog</title>
+    <link>https://blog.beucismis.org/posts/</link>
+    <description>Recent content in Posts on beucismis blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>tr-TR</language>
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.beucismis.org/posts/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Custom ROM Kurma Rehberi</title>
+      <link>https://blog.beucismis.org/posts/custom-rom-installation-guide/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/custom-rom-installation-guide/</guid>
+      <description>&lt;h2 id=&#34;girizgah&#34;&gt;Girizgah&lt;/h2&gt;
+&lt;p&gt;Bu rehberde telefonuma nasıl özelleştirilmiş bir işletim sistemi kurduğumu anlatacağım. Rehberde bahsi geçen işlemler Arch GNU/Linux dağıtımı üzerinde adım adım anlatılmıştır. Temel Android ve GNU/Linux bilgisine sahip olmanız tavsiye edilir. İyi şanslar&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sorumluluk Reddi&lt;/strong&gt;: Bu özelleştirilmiş işletim sistemini ve diğer araçları kendi sorumluluğunuzda kullanın! Mobil cihazınıza ve kişisel verilerinize gelebilecek olası zararlardan yazar sorumlu değildir.&lt;/p&gt;
+&lt;p&gt;Neler gerekli?&lt;/p&gt;
+&lt;div class=&#34;codeblock&#34;&gt;
+    &lt;span class=&#34;codeblock-type&#34;&gt;PLAINTEXT&lt;/span&gt;
+&lt;/div&gt;
+ &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- İnternet :)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- USB veri aktarma kablosu
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Tercihen GNU/Linux bir bilgisayar
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Custom ROM&amp;#39;a sahip bir mobil cihaz&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ön bilgi verme ve yasal sorumlulukları belirtme adımını geçtiğimize göre, neler kuracağımızdan kısaca bahsedeyim.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Müzik Dinlemenin Bencesi</title>
+      <link>https://blog.beucismis.org/posts/muzik-dinlemenin-bencesi/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/muzik-dinlemenin-bencesi/</guid>
+      <description>&lt;h2 id=&#34;girizgah&#34;&gt;Girizgah&lt;/h2&gt;
+&lt;p&gt;Yaklaşık 5-6 yıldır aktif olarak gerçekten müzik dinliyorum. Daha öncesinde pek müzik zevkim olduğu söylenemezdi. Dinlediğim tarzlar vardı elbet ama genelde popüler şeylerdi.&lt;/p&gt;
+&lt;p&gt;2019 kışında Anadolu Rock ile tanıştım ve merak edip daha derinlere indikçe farklı tarzlarda harika işler gördüm ve tutuldum. O günlerden sonra sürekli yeni gruplar ve albümler arar oldum. Beğendiğim albümleri FLAC kalite indirip, sadece açıp dinlerdim. Başka bir şey yapmazdım. Bu keşfetme ve dinleme süreci bana epey keyif veriyordu.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hayatın Anlamının Bencesi</title>
+      <link>https://blog.beucismis.org/posts/hayatin-anlaminin-bencesi/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/hayatin-anlaminin-bencesi/</guid>
+      <description>&lt;h2 id=&#34;kısaca&#34;&gt;Kısaca&lt;/h2&gt;
+&lt;p&gt;Deneyim.&lt;/p&gt;
+&lt;h2 id=&#34;uzunca&#34;&gt;Uzunca&lt;/h2&gt;
+&lt;p&gt;Anlam veremediğimiz şekilde bu dünyada gözlerimizi açtık ve ne zaman olacağını bilmediğimiz bir yok oluş bekliyoruz bizi. Bu durumun yanı sıra evrende çok fazla bilinmez var. Bu bilinmezler arasında kaybolmak yerine anlamını bildiğimiz veya bilmek istediğimiz şeylere odaklanmak daha iyi olacaktır.&lt;/p&gt;
+&lt;p&gt;Bu yolda, deneyimden geçiyor. Denemek hayatı daha çekilesi yapıyor. Bir yemek, oyun ya da roman yazmayı denemek. Dövme yaptırmayı, kaybolmayı ya da sevmeyi denemek.&lt;/p&gt;
+&lt;p&gt;Hayat böyle geçiyor&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lehimle Bi&#39; Şeyler Yaptım</title>
+      <link>https://blog.beucismis.org/posts/lehimle-bi-seyler-yaptim/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/lehimle-bi-seyler-yaptim/</guid>
+      <description>&lt;h2 id=&#34;girizgah&#34;&gt;Girizgah&lt;/h2&gt;
+&lt;p&gt;Bu yazıda kendime şu goth&amp;rsquo;ikvari yüzüklerden yapıcam. Gerekli malzemeler aşağıdaki gibi.&lt;/p&gt;
+&lt;div class=&#34;codeblock&#34;&gt;
+    &lt;span class=&#34;codeblock-type&#34;&gt;PLAINTEXT&lt;/span&gt;
+&lt;/div&gt;
+ &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Havya
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Lehim teli
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Bakır veya benzeri bir tel&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.beucismis.org/goth-yuzuk-1.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;nasıl-yaptım&#34;&gt;Nasıl Yaptım?&lt;/h2&gt;
+&lt;p&gt;Önce parmak ölçümüze yakın silindir şeklindeki herhangi bir şey ile kalıp hazırlamamız gerekiyor. Teli uygun uzunlukta kesim bu şeyine etrafına doluyorum.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.beucismis.org/goth-yuzuk-2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Burada zaten iş istediğimiz tasarımda bir kalıp çıkarmak. Ben bunu baş parmağım için aldım. Görünen kısmı daha geniş ve içte kalan kısmı daha ince.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Caddy Server Yetkilendirme</title>
+      <link>https://blog.beucismis.org/posts/caddy-server-auth/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/caddy-server-auth/</guid>
+      <description>&lt;h2 id=&#34;girizgah&#34;&gt;Girizgah&lt;/h2&gt;
+&lt;p&gt;Öncelikle parolamızın hash değerini aşağıdaki komut ile oluşturuyoruz.&lt;/p&gt;
+&lt;div class=&#34;codeblock&#34;&gt;
+    &lt;span class=&#34;codeblock-type&#34;&gt;BASH&lt;/span&gt;
+&lt;/div&gt;
+ &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;caddy hash-password --plaintext password123&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Daha sonrasına hash değeri kullanarak aşağıdaki örnek koda benzer bir yapılandırma ekleyebilirsiniz.&lt;/p&gt;
+&lt;div class=&#34;codeblock&#34;&gt;
+    &lt;span class=&#34;codeblock-type&#34;&gt;PLAINTEXT&lt;/span&gt;
+&lt;/div&gt;
+ &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;example.com {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    basicauth / {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;username&amp;gt; &amp;lt;password_hash&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    respond &amp;#34;Hello, {http.auth.user.id}&amp;#34; 200
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git Notları</title>
+      <link>https://blog.beucismis.org/posts/git-notes/</link>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/git-notes/</guid>
+      <description>&lt;h2 id=&#34;notlar&#34;&gt;Notlar&lt;/h2&gt;
+&lt;p&gt;Dallar arasında geçiş yapmak ve bir daldaki değişikliği diğer dala aynen uygulamak için aşağıdaki komutlar iş görecektir.&lt;/p&gt;
+&lt;div class=&#34;codeblock&#34;&gt;
+    &lt;span class=&#34;codeblock-type&#34;&gt;BASH&lt;/span&gt;
+&lt;/div&gt;
+ &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout variant &lt;span style=&#34;color:#75715e&#34;&gt;# variant isimli dala geç&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git merge main &lt;span style=&#34;color:#75715e&#34;&gt;# main dalında yapılan değişiklikleri variant&amp;#39;a uygula&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;Diyelim ki önceki bir dosya ağacına geri dönmek istiyorsunuz. Bunun için önce tree&amp;rsquo;nin hash numarası lazım. Daha sonra aşağıdaki komutlar ile geri dönüp yeni tree&amp;rsquo;yi push edebilirsiniz.&lt;/p&gt;
+&lt;div class=&#34;codeblock&#34;&gt;
+    &lt;span class=&#34;codeblock-type&#34;&gt;BASH&lt;/span&gt;
+&lt;/div&gt;
+ &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git reset --hard 2d7a4bd2f8cda10856763ce9934eebed26ab351d &lt;span style=&#34;color:#75715e&#34;&gt;# ağaç yapısını getir&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git push --force origin main &lt;span style=&#34;color:#75715e&#34;&gt;# yeni dosyaları zorla gönder&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;git-yapılandırmam&#34;&gt;Git Yapılandırmam&lt;/h2&gt;
+&lt;div class=&#34;codeblock&#34;&gt;
+    &lt;span class=&#34;codeblock-type&#34;&gt;YAML&lt;/span&gt;
+&lt;/div&gt;
+ &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;user]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;name = name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;email = email@email.com&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;gpg]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;program = gpg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;url &amp;#34;git@github.com:&amp;#34;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;insteadOf = https://github.com/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;url &amp;#34;git@gitlab.com:&amp;#34;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;insteadOf = https://gitlab.com/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;alias]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;m = mv&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;r = rm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;a = add&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;t = tag&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;l = log&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;i = init&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;p = pull&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;d = diff&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;g = grep&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;s = show&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;f = fetch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;c = clone&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;mr = merge&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;rs = reset&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;st = status&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;br = branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;cm = commit&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;rb = rebase&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;cmt = commit -m&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;rmt = remote -v&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;core]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;editor = nano&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#ae81ff&#34;&gt;pager = delta&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;commit]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;verbose = true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;merge]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;conflictstyle = diff3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;diff]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;colorMoved = default&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;init]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;defaultBranch = master&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;interactive]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;diffFilter = delta --color-only&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#ae81ff&#34;&gt;delta]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;dark = true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;navigate = true&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>TV Dizileri</title>
+      <link>https://blog.beucismis.org/posts/tv-show/</link>
+      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/tv-show/</guid>
+      <description>&lt;h2 id=&#34;girizgah&#34;&gt;Girizgah&lt;/h2&gt;
+&lt;p&gt;Bu yazıda favori televizyon dizilerimi listeledim&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;liste&#34;&gt;Liste&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qZXkBoOUYzvKI4UCMzDQ5kqWHjh.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/2490-the-it-crowd&#34;&gt;The IT Crowd&lt;/a&gt; (2006)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tPqV63zcW6ZV0Hd48DMGb5UzQIG.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/2382-freaks-and-geeks&#34;&gt;Freaks and Geeks&lt;/a&gt; (1999)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lPAOv8kE2AuD4jliyJ6ziKQIAGi.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/31941-blue-mountain-state&#34;&gt;Blue Mountain State&lt;/a&gt; (2010)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4ptpmWBVD9HY9hMh8Cbs6SMiy7p.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/60573-silicon-valley&#34;&gt;Silicon Valley&lt;/a&gt; (2014)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/laEZvTqM80UaplUaDSCCbWhlyEV.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/52-that-70s-show&#34;&gt;That &amp;rsquo;70s Show&lt;/a&gt; (1998)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hzeirSF6bRjssDh5JFrm5WRwFLd.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/60797-scorpion&#34;&gt;Scorpion&lt;/a&gt; (2014)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://media.themoviedb.org/t/p/w220_and_h330_face/3lINq40kw9T52ipjwN8Rht4rnrj.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/900-skins&#34;&gt;Skins&lt;/a&gt; (2007)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vEZvGVVMjk1TRs59nfypTI5lAXj.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/1404-chuck&#34;&gt;Chuck&lt;/a&gt; (2007)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ooBGRQBdbGzBxAVfExiO8r7kloA.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/1418-the-big-bang-theory&#34;&gt;The Big Bang Theory&lt;/a&gt; (2007)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/1396-breaking-bad&#34;&gt;Breaking Bad&lt;/a&gt; (2008)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/70523-dark&#34;&gt;Dark&lt;/a&gt; (2017)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rcBx0p8h51LHceyhquYMxbspJQu.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/4087-the-x-files&#34;&gt;The X Files&lt;/a&gt; (1993)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cIfGAkpvWD2zxHrXzhv3uptYbyV.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/19885-sherlock&#34;&gt;Sherlock&lt;/a&gt; (2010)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1fH41ccMKvgDTbbcCxWWH6fznah.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/64464-11-22-63&#34;&gt;11.22.63&lt;/a&gt; (2016)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kv1nRqgebSsREnd7vdC2pSGjpLo.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/62560-mr-robot&#34;&gt;Mr. Robot&lt;/a&gt; (2015)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/seN6rRfN0I6n8iDXjlSMk1QjNcq.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/42009-black-mirror&#34;&gt;Black Mirror&lt;/a&gt; (2011)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/asDqvkE66EegtKJJXIRhBJPxscr.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/86831-love-death-robots&#34;&gt;Love, Death &amp;amp; Robots&lt;/a&gt; (2019)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xg7U76h1DNtwa0eBOIbFdiM80DR.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/88236-how-to-sell-drugs-online-fast&#34;&gt;How to Sell Drugs Online (Fast)&lt;/a&gt; (2019)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/Ac8ruycRXzgcsndTZFK6ouGA0FA.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/110316&#34;&gt;Alice in Borderland&lt;/a&gt; (2020)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/82856-the-mandalorian&#34;&gt;The Mandalorian&lt;/a&gt; (2019)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6POBWybSBDBKjSs1VAQcnQC1qyt.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/77169-cobra-kai&#34;&gt;Cobra Kai&lt;/a&gt; (2018)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/c15BtJxCXMrISLVmysdsnZUPQft.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/106379-fallout&#34;&gt;Fallout&lt;/a&gt; (2024)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/100088-the-last-of-us&#34;&gt;The Last of Us&lt;/a&gt; (2023)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5van3ktOTqWr5lcixh5aR8NlqqW.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/96580-resident-alien&#34;&gt;Resident Alien&lt;/a&gt; (2021)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://media.themoviedb.org/t/p/w220_and_h330_face/wvtW9YoMkovpMqyZCWUbQC6FJlg.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/53606-love&#34;&gt;Love&lt;/a&gt; (2016)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sOzTUfTc1djfZM46PgsjuOjs5U1.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.themoviedb.org/tv/115678-gibi&#34;&gt;Gibi&lt;/a&gt; (2021)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kıbrıs Dörtlüsü - Hayalin (1980) Şarkı Sözleri</title>
+      <link>https://blog.beucismis.org/posts/kibris-dortlusu-hayalin/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/kibris-dortlusu-hayalin/</guid>
+      <description>&lt;h2 id=&#34;girizgah&#34;&gt;Girizgah&lt;/h2&gt;
+&lt;p&gt;Bu grubu saykodelik Türkçe rock ararken keşfetmiştim. Hepi topu toplam bir albüm ve 2 şarkıları var. Ama ne albüm! Bu şarkının sözleri internette yok, bu yüzden kayıtlara geçmesini istedim.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://blog.beucismis.org/k%C4%B1br%C4%B1s-d%C3%B6rtl%C3%BCs%C3%BC-hayalin.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Grup hakkında bilgi edinmek için &lt;a href=&#34;https://orkestralargruplartarihi.com/kibris-dortlusu&#34;&gt;https://orkestralargruplartarihi.com/kibris-dortlusu&lt;/a&gt; adresini ziyaret edebilirsiniz.&lt;/p&gt;
+&lt;h2 id=&#34;sarkı-sözleri&#34;&gt;Sarkı Sözleri&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hayalin&lt;/p&gt;
+&lt;p&gt;Hayalin, beni yaşatan hayalin oldu, hayalin &lt;br&gt;
+Gönlümde, bir umuttur hatıran oldu, hatıran &lt;br&gt;
+Gecem ayndınlık, gün karanlık, ters dönüyor dünya &lt;br&gt;
+Gecem ayndınlık, gün karanlık, ters dönüyor dünya&lt;/p&gt;
+&lt;p&gt;Güneş tutulsa, yıllar geçmese &lt;br&gt;
+Ve seni hiç görmesem bile &lt;br&gt;
+Yaşadın deriz, hayali&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Evde Sushi Yaptım</title>
+      <link>https://blog.beucismis.org/posts/evde-sushi-yaptim/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/evde-sushi-yaptim/</guid>
+      <description>&lt;h2 id=&#34;girizgah&#34;&gt;Girizgah&lt;/h2&gt;
+&lt;p&gt;Diyete başlamamla birlikte evde kendim yapıp yiyebileceğim pratik bir şeyler düşünürken aklıma sushi fikri geldi. Nereden geldiyse artık&amp;hellip; Temel bütün besin değerleri var, sağlıklı ayrıca tüketmesi pratik bi şey sayılır.&lt;/p&gt;
+&lt;p&gt;Ben tom balıklı ve sebzeli yaptım. İçindeki malzemeler tamamen damak zevkinize kalmış.&lt;/p&gt;
+&lt;h3 id=&#34;malzemeler&#34;&gt;Malzemeler&lt;/h3&gt;
+&lt;div class=&#34;codeblock&#34;&gt;
+    &lt;span class=&#34;codeblock-type&#34;&gt;PLAINTEXT&lt;/span&gt;
+&lt;/div&gt;
+ &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- 160gr tom balığı
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Göz kararı marul
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Göz kararı salatalık
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Kurutulmuş yosun
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Göz kararı basmati pirinç
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- 2-3 su bardağı kaynamış su
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Soya sosu (opsiyonel)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;nasıl-yapılır&#34;&gt;Nasıl Yapılır?&lt;/h2&gt;
+&lt;p&gt;Tek hazır olması gereken şey prinç. Diğer malzemeleri direkt zaten işlemeden kullanacağız.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pilav Tarifi</title>
+      <link>https://blog.beucismis.org/posts/pilav-tarifi/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/pilav-tarifi/</guid>
+      <description>&lt;h2 id=&#34;girizgah&#34;&gt;Girizgah&lt;/h2&gt;
+&lt;p&gt;Bu yazıda kendim yapıp yiyebildiğim tek pilav tarifini ve nasıl yapıldığını anlatıyor olacağım.&lt;/p&gt;
+&lt;h3 id=&#34;malzemeler&#34;&gt;Malzemeler&lt;/h3&gt;
+&lt;div class=&#34;codeblock&#34;&gt;
+    &lt;span class=&#34;codeblock-type&#34;&gt;PLAINTEXT&lt;/span&gt;
+&lt;/div&gt;
+ &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Gör kararı tuz
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- 1 yemek kaşığı şehriye
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- 1 su bardağı basmati pirinç
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Göz kararı tereyağı
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- 2-3 su bardağı kadar kaynamış su&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;nasıl-yapılır&#34;&gt;Nasıl Yapılır?&lt;/h2&gt;
+&lt;p&gt;Ocağın altını açın, tava veya tencereye tereyağını atıp eritiyoruz. Erime sırasında şehriyeleri atıp önden bi&amp;rsquo; süre kavurun. Önceden yıkayıp suyunu süzdüğümüz pirinleri ilave ediyoruz ve 1-2 dakika daha kavurmaya devam.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Yıl Olmuş 2025, Müzik Oynatıcı Mı Kullanıyorsun?</title>
+      <link>https://blog.beucismis.org/posts/music-player/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/music-player/</guid>
+      <description>&lt;h2 id=&#34;girizgah&#34;&gt;Girizgah&lt;/h2&gt;
+&lt;p&gt;Geçtiğimiz günlerde &lt;a href=&#34;https://www.reddit.com/r/dumbphones/&#34;&gt;r/dumbphones/&lt;/a&gt; isimli Reddit sub&amp;rsquo;unda dolaşırken, insanların &amp;ldquo;çantamda ne var&amp;rdquo; fotoğrafları attığını gördüm. Aklınıza hemen makyaj video&amp;rsquo;ları çeken influncer&amp;rsquo;ler gelmesin. Bu içerik daha nerd bir şey.&lt;/p&gt;
+&lt;p&gt;Fotoğraflarda daha çok akılsız telefon, kablolu kulaklık, müzik çalar, e-kitap okucu vb. şeyler yer alıyor. İlk dikkatimi çeken şey ise atılan her fotoğrafta istisnasız müzik çalarların yer almasıydı.&lt;/p&gt;
+&lt;p&gt;Açıkçası zamanında aldığım spor ayakkabı yanına hediye olarak verilen bir müzik çalara sahip olmuştum ve bir süre kullandığımı hatırlıyorum. O yıldan sonra sanki böyle bir cihazın varlığı aklımdan silinmiş gibiydi. Ben de hatırlama vesilesiyle araştırdım ve hala bu tür güncel cihazların üretildiğini gördüm. Nostaljik duygular mı dersiniz bilmiyorum ama gerçekten bir tane edinmek istedim.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>crDroid ile Custom ROM Rehberi</title>
+      <link>https://blog.beucismis.org/posts/custom-rom-guide-with-crdroid/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/custom-rom-guide-with-crdroid/</guid>
+      <description>&lt;h2 id=&#34;girizgah&#34;&gt;Girizgah&lt;/h2&gt;
+&lt;p&gt;Bu rehberde başlıkta bahsi geçen işletim sistemi ve bunun yanında diğer yardımcı araçların kurulumu Arch GNU/Linux dağıtımı üzerinde adım adım anlatılmıştır. Temel Android ve GNU/Linux bilgisine sahip olmanız tavsiye edilir. Bol şans&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sorumluluk Reddi&lt;/strong&gt;: Bu özelleştirilmiş işletim sistemini ve diğer araçları kendi sorumluluğunuzda kullanın! Mobil cihazınıza ve kişisel verilerinize gelebilecek olası zararlardan yazar sorumlu değildir.&lt;/p&gt;
+&lt;p&gt;Neler gereli?&lt;/p&gt;
+&lt;div class=&#34;codeblock&#34;&gt;
+    &lt;span class=&#34;codeblock-type&#34;&gt;PLAINTEXT&lt;/span&gt;
+&lt;/div&gt;
+ &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- İnternet :)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- USB veri kablosu
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Tercihen GNU/Linux yüklü bir bilgisayar
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- crDroid Custom ROM&amp;#39;a sahip bir mobil cihaz&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&#34;neden-böyle-bir-şey-yapıyoruz&#34;&gt;Neden Böyle Bir Şey Yapıyoruz?&lt;/h3&gt;
+&lt;p&gt;Neden olmasın?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Anime&#39;ler</title>
+      <link>https://blog.beucismis.org/posts/anime/</link>
+      <pubDate>Sun, 08 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/anime/</guid>
+      <description>&lt;h2 id=&#34;girizgah&#34;&gt;Girizgah&lt;/h2&gt;
+&lt;p&gt;Bu yazıda favori anime&amp;rsquo;lerimi listeledim&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;liste&#34;&gt;Liste&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/1935/127974.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/9253/Steins_Gate&#34;&gt;Steins;Gate&lt;/a&gt; (2011)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/3/52675.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/1210/NHK_ni_Youkoso&#34;&gt;NHK ni Youkoso!&lt;/a&gt; (2006)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/1763/95397.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/486/Kino_no_Tabi__The_Beautiful_World&#34;&gt;Kino no Tabi: The Beautiful World&lt;/a&gt; (2003)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/4/40977.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/14345/Btooom&#34;&gt;BTOOOM!&lt;/a&gt; (2012)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/12/88321.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/35838/Shoujo_Shuumatsu_Ryokou&#34;&gt;Shoujo Shuumatsu Ryokou&lt;/a&gt; (2017)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/1079/138100.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/1535/Death_Note&#34;&gt;Death Note&lt;/a&gt; (2006)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/1718/91550.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/339/Serial_Experiments_Lain&#34;&gt;Serial Experiments Lain&lt;/a&gt; (1998)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/13/11460.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/245/Great_Teacher_Onizuka&#34;&gt;Great Teacher Onizuka&lt;/a&gt; (1999)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/3/62867.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/268/Golden_Boy&#34;&gt;Golden Boy&lt;/a&gt; (1995)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/1973/142750.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/33255/Saiki_Kusuo_no_%CE%A8-nan&#34;&gt;Saiki Kusuo no Ψ-nan&lt;/a&gt; (2016)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/1066/117358.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/66/Azumanga_Daiou_The_Animation&#34;&gt;Azumanga Daioh: The Animation&lt;/a&gt; (2002)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/1806/126216.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/44511/Chainsaw_Man&#34;&gt;Chainsaw Man&lt;/a&gt; (2022)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/7/76014.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/20583/Haikyuu&#34;&gt;Haikyuu!!&lt;/a&gt; (2014)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/5/85434.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/33206/Kobayashi-san_Chi_no_Maid_Dragon&#34;&gt;Miss Kobayashi`s Dragon Maid&lt;/a&gt; (2017)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/1286/112161.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/30240/Prison_School&#34;&gt;Prison School&lt;/a&gt; (2015)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/3/82149.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/30015/ReLIFE&#34;&gt;ReLIFE&lt;/a&gt; (2016)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/9/74781.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/1462/Memories&#34;&gt;Memories&lt;/a&gt; (1995)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/2/73862.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/457/Mushishi&#34;&gt;Mushi-Shi&lt;/a&gt; (2006)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/1593/122440.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/2476/School_Days&#34;&gt;School Days&lt;/a&gt; (2007)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/1786/120117.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/14813/Yahari_Ore_no_Seishun_Love_Comedy_wa_Machigatteiru&#34;&gt;Yahari Ore no Seishun Love Comedy wa Machigatteiru.&lt;/a&gt; (2013)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/5/86830.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/14813/Yahari_Ore_no_Seishun_Love_Comedy_wa_Machigatteiru&#34;&gt;Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e&lt;/a&gt; (2017)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/5/53211.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/18179/Yowamushi_Pedal&#34;&gt;Yowamushi Pedal&lt;/a&gt; (2014)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/1250/91694.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/36094/Hakumei_to_Mikochi&#34;&gt;Hakumei to Mikochi&lt;/a&gt; (2018)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;img width=&#34;300&#34; src=&#34;https://cdn.myanimelist.net/images/anime/8/80356.jpg&#34; /&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://myanimelist.net/anime/32182/Mob_Psycho_100&#34;&gt;Mob Psycho 100&lt;/a&gt; (2016)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Arşiv] crDroid ile Mobil Cihaz Güvenliği Rehberi</title>
+      <link>https://blog.beucismis.org/posts/privace-guide-with-crdroid/</link>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/privace-guide-with-crdroid/</guid>
+      <description>&lt;h2 id=&#34;girizgah&#34;&gt;Girizgah&lt;/h2&gt;
+&lt;p&gt;Bu rehberde başlıkta bahsi geçen işletim sistemi ve yardımcı araçların kurulumu Debian GNU/Linux dağıtımı üzerinden anlatılacaktır. Bu yüzden temel GNU/Linux bilgisine sahip olmanız tavsiye edilir.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sorumluluk Reddi&lt;/strong&gt;: Bu değiştirilmiş işletim sistemini ve diğer araçları kendi sorumluluğunuzda kullanın! Mobil cihazınıza gelebilecek olası zararlardan yazar sorumlu değildir.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://twrp.me&#34;&gt;TWRP&lt;/a&gt; (Team Win Recovery Project), yardımcı araçlar sunan gelişmiş bir kurtarma menüsüdür. Mobil cihazlar için tasarlanmış özel işletim sistemlerini yükleme, yedek alma, alınan yedeği geri yükleme vb. işlevlere sahiptir.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Merhaba Dünya</title>
+      <link>https://blog.beucismis.org/posts/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.beucismis.org/posts/hello-world/</guid>
+      <description>&lt;p&gt;Merhaba Dünya&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
