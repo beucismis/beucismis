@@ -1,4 +1,4 @@
-name: Latest blog post workflow
+name: Latest blog post workflow with fallback
 
 on:
   schedule:
@@ -11,16 +11,37 @@ permissions:
   contents: write
 
 jobs:
-  update-readme-with-blog:
+  update-readme-with-fallback:
     name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Pull posts
+      - name: Fetch and save feed
+        run: curl -o temp-feeds.xml https://blog.beucismis.org/posts/index.xml
+      - name: Check URL status
+        id: check_url
+        run: |
+          STATUS_CODE=$(curl -o /dev/null -s -w "%{http_code}" https://blog.beucismis.org/posts/index.xml)
+          echo "STATUS_CODE=$STATUS_CODE" >> $GITHUB_ENV
+      - name: Update this repo's README with latest blog posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           max_post_count: 10
-          feed_list: "https://blog.beucismis.org/posts/index.xml"
+          feed_list: "${{ env.STATUS_CODE == '200' && 'https://blog.beucismis.org/posts/index.xml' || 'temp-feeds.xml' }}"
           date_format: "d mmm yyyy"
           template: "- $date - <a href='$url'>$title</a> <br/>"
+      - name: Upload feeds artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: feeds
+          path: temp-feeds.xml
+        if: failure()
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add temp-feeds.xml
+          git commit -m "Update temp-feeds.xml" || echo "No changes to commit"
+          git push
+        if: success()
