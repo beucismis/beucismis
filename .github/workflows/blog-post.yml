@@ -26,18 +26,16 @@ jobs:
       - name: Fetch and save feed
         if: steps.check_url.outputs.status_code == '200'
         run: curl -o temp-feeds.xml https://blog.beucismis.org/posts/index.xml
-      - name: Setup git config
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Update this repo's TEMPLATE.md with latest blog posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          readme_path: "TEMPLATE.md"
           max_post_count: 10
-          feed_list: "${{ env.STATUS_CODE == '200' && 'https://blog.beucismis.org/posts/index.xml' || 'temp-feeds.xml' }}"
           date_format: "d mmm yyyy"
+          readme_path: "TEMPLATE.md"
           template: "- $date - <a href='$url'>$title</a> <br/>"
+          feed_list: "${{ env.STATUS_CODE == '200' && 'https://blog.beucismis.org/posts/index.xml' || 'temp-feeds.xml' }}"
+          committer_username: "github-actions[bot]"
+          committer_email: "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Upload feeds artifact
         uses: actions/upload-artifact@v4
         with:
