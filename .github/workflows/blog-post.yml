@@ -17,16 +17,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Fetch and save feed
-        run: curl -o temp-feeds.xml https://blog.beucismis.org/posts/index.xml
       - name: Check URL status
         id: check_url
         run: |
           STATUS_CODE=$(curl -o /dev/null -s -w "%{http_code}" https://blog.beucismis.org/posts/index.xml)
-          echo "STATUS_CODE=$STATUS_CODE" >> $GITHUB_ENV
-      - name: Update this repo's README with latest blog posts
+          echo "status_code=$STATUS_CODE" >> "$GITHUB_OUTPUT"
+          echo "STATUS_CODE=$STATUS_CODE" >> "$GITHUB_ENV"
+      - name: Fetch and save feed
+        if: steps.check_url.outputs.status_code == '200'
+        run: curl -o temp-feeds.xml https://blog.beucismis.org/posts/index.xml
+      - name: Setup git config
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Update this repo's TEMPLATE.md with latest blog posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
+          readme_path: "TEMPLATE.md"
           max_post_count: 10
           feed_list: "${{ env.STATUS_CODE == '200' && 'https://blog.beucismis.org/posts/index.xml' || 'temp-feeds.xml' }}"
           date_format: "d mmm yyyy"
@@ -37,11 +44,3 @@ jobs:
           name: feeds
           path: temp-feeds.xml
         if: failure()
-      - name: Commit changes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add temp-feeds.xml
-          git commit -m "Update temp-feeds.xml" || echo "No changes to commit"
-          git push
-        if: success()
