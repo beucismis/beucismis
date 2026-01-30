@@ -15,17 +15,17 @@
       
       <guid>https://blog.beucismis.org/posts/custom-rom-installation-guide/</guid>
       <description>&lt;h2 id=&#34;girizgah&#34;&gt;Girizgah&lt;/h2&gt;
-&lt;p&gt;Bu rehberde telefonuma nasıl özelleştirilmiş bir işletim sistemi kurduğumu anlatacağım. Rehberde bahsi geçen işlemler Arch GNU/Linux dağıtımı üzerinde adım adım anlatılmıştır. Temel Android ve GNU/Linux bilgisine sahip olmanız tavsiye edilir. İyi şanslar&amp;hellip;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Sorumluluk Reddi&lt;/strong&gt;: Bu özelleştirilmiş işletim sistemini ve diğer araçları kendi sorumluluğunuzda kullanın! Mobil cihazınıza ve kişisel verilerinize gelebilecek olası zararlardan yazar sorumlu değildir.&lt;/p&gt;
-&lt;p&gt;Neler gerekli?&lt;/p&gt;
+&lt;p&gt;Bu rehberde, telefonuma nasıl özelleştirilmiş bir işletim sistemi kurduğumu anlatacağım. Rehberdeki işlemler, Arch GNU/Linux dağıtımı referans alınarak adım adım anlatılmıştır. Temel Android ve GNU/Linux bilgisine sahip olmanız tavsiye edilir. İyi şanslar!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sorumluluk Reddi&lt;/strong&gt;: Bu özelleştirilmiş işletim sistemini ve diğer araçları kendi sorumluluğunuzda kullanın. Mobil cihazınıza ve kişisel verilerinize gelebilecek olası zararlardan yazar sorumlu tutulamaz.&lt;/p&gt;
+&lt;p&gt;Neler Gerekli?&lt;/p&gt;
 &lt;div class=&#34;codeblock&#34;&gt;
     &lt;span class=&#34;codeblock-type&#34;&gt;PLAINTEXT&lt;/span&gt;
 &lt;/div&gt;
- &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- İnternet :)
+ &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- İnternet bağlantısı :)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- USB veri aktarma kablosu
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Tercihen GNU/Linux bir bilgisayar
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Custom ROM&amp;#39;a sahip bir mobil cihaz&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Ön bilgi verme ve yasal sorumlulukları belirtme adımını geçtiğimize göre, neler kuracağımızdan kısaca bahsedeyim.&lt;/p&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Tercihen GNU/Linux tabanlı bir bilgisayar
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Custom ROM kurmaya uygun bir mobil cihaz&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Ön bilgileri ve yasal sorumlulukları ele aldığımıza göre, neler kuracağımızdan kısaca bahsedeyim.&lt;/p&gt;</description>
     </item>
     
     <item>
