@@ -1,4 +1,4 @@
-name: Latest blog post workflow with fallback
+name: Update README and Blog Posts
 
 on:
   schedule:
@@ -7,16 +7,20 @@ on:
     branches:
       - master
   workflow_dispatch:
+
 permissions:
   contents: write
 
 jobs:
-  update-readme-with-fallback:
-    name: Update this repo's README with latest blog posts
+  update-files:
+    name: Update files
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Check URL status
         id: check_url
         run: |
@@ -26,19 +30,29 @@ jobs:
       - name: Fetch and save feed
         if: steps.check_url.outputs.status_code == '200'
         run: curl -o temp-feeds.xml https://blog.beucismis.org/posts/index.xml
-      - name: Update this repo's TEMPLATE.md with latest blog posts
+
+      - name: Update blog posts in TEMPLATE.md
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
+          skip_commit: true
           max_post_count: 10
-          date_format: "d mmm yyyy"
           readme_path: "TEMPLATE.md"
+          date_format: "d mmm yyyy"
           template: "- $date - <a href='$url'>$title</a> <br/>"
           feed_list: "${{ env.STATUS_CODE == '200' && 'https://blog.beucismis.org/posts/index.xml' || 'temp-feeds.xml' }}"
-          committer_username: "github-actions[bot]"
-          committer_email: "41898282+github-actions[bot]@users.noreply.github.com"
-      - name: Upload feeds artifact
-        uses: actions/upload-artifact@v4
+
+      - name: Generate README.md from stats
+        uses: teoxoy/profile-readme-stats@master
         with:
-          name: feeds
-          path: temp-feeds.xml
-        if: failure()
+          token: ${{ secrets.USER_TOKEN }}
+
+      - name: Commit and push changes
+        shell: bash
+        run: |
+          if [[ "$(git status --porcelain)" != "" ]]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email 'github-actions[bot]@users.noreply.github.com'
+            git add *.md temp-feeds.xml
+            git commit -m "Update README and blog posts"
+            git push
+          fi
