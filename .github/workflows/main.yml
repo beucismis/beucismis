@@ -1,0 +1,112 @@
+name: Update README and Blog Posts
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-files:
+    name: Update files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check URL status
+        id: check_url
+        run: |
+          STATUS_CODE=$(curl -o /dev/null -s -w "%{http_code}" https://blog.beucismis.org/posts/index.xml)
+          echo "status_code=$STATUS_CODE" >> "$GITHUB_OUTPUT"
+      - name: Fetch and save feed
+        if: steps.check_url.outputs.status_code == '200'
+        run: curl -o temp-feeds.xml https://blog.beucismis.org/posts/index.xml
+
+      - name: Update blog posts in TEMPLATE.md
+        shell: python
+        run: |
+          import re
+          import xml.etree.ElementTree as ET
+          from datetime import datetime
+          import os
+
+          FEED_FILE = 'temp-feeds.xml'
+          TARGET_FILE = 'TEMPLATE.md'
+          MAX_POSTS = 10
+          DATE_FORMAT = '%d %b %Y'
+          START_COMMENT = '<!-- BLOG-POST-LIST:START -->'
+          END_COMMENT = '<!-- BLOG-POST-LIST:END -->'
+          POST_TEMPLATE = "- {date} - <a href='{url}'>{title}</a> <br/>"
+
+          if not os.path.exists(FEED_FILE):
+              print(f"Feed file '{FEED_FILE}' not found. Skipping blog post update.")
+              exit(0)
+
+          try:
+              tree = ET.parse(FEED_FILE)
+              root = tree.getroot()
+              posts = []
+              for item in root.findall('.//item')[:MAX_POSTS]:
+                  title = item.find('title').text
+                  url = item.find('link').text
+                  pub_date_str = item.find('pubDate').text
+
+                  try:
+                      pub_date_obj = datetime.strptime(pub_date_str, '%a, %d %b %Y %H:%M:%S %z')
+                  except ValueError:
+                      pub_date_obj = datetime.strptime(pub_date_str, '%a, %d %b %Y %H:%M:%S')
+
+                  formatted_date = pub_date_obj.strftime(DATE_FORMAT)
+                  posts.append({'title': title, 'url': url, 'date': formatted_date})
+
+              new_content = '\n'.join([POST_TEMPLATE.format(date=p['date'], url=p['url'], title=p['title']) for p in posts])
+
+              with open(TARGET_FILE, 'r', encoding='utf-8') as f:
+                  file_content = f.read()
+
+              replacement_regex = f"({re.escape(START_COMMENT)}\\n).+?(\\n{re.escape(END_COMMENT)})"
+
+              # Ensure the markers exist before attempting replacement
+              if re.search(replacement_regex, file_content, re.DOTALL):
+                  new_file_content = re.sub(replacement_regex, f"\\1{new_content}\\2", file_content, flags=re.DOTALL)
+                  with open(TARGET_FILE, 'w', encoding='utf-8') as f:
+                      f.write(new_file_content)
+                  print(f"Successfully updated {TARGET_FILE} with {len(posts)} posts.")
+              else:
+                  # If markers are not found, search without newlines as a fallback
+                  replacement_regex_no_newline = f"({re.escape(START_COMMENT)}).+?({re.escape(END_COMMENT)})"
+                  if re.search(replacement_regex_no_newline, file_content, re.DOTALL):
+                      new_file_content = re.sub(replacement_regex_no_newline, f"\\1\n{new_content}\n\\2", file_content, flags=re.DOTALL)
+                      with open(TARGET_FILE, 'w', encoding='utf-8') as f:
+                          f.write(new_file_content)
+                      print(f"Successfully updated {TARGET_FILE} with {len(posts)} posts (fallback marker search).")
+                  else:
+                      print(f"Error: Could not find start/end comment markers in {TARGET_FILE}")
+                      exit(1)
+          except Exception as e:
+              print(f"An error occurred during blog post update: {e}")
+              exit(1)
+
+      - name: Generate README.md from stats
+        uses: teoxoy/profile-readme-stats@master
+        with:
+          token: ${{ secrets.USER_TOKEN }}
+
+      - name: Commit and push changes
+        shell: bash
+        run: |
+          if [[ "$(git status --porcelain)" != "" ]]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email 'github-actions[bot]@users.noreply.github.com'
+            git add *.md temp-feeds.xml
+            git commit -m "Update README and blog posts"
+            git push
+          fi
