@@ -1,4 +1,4 @@
-name: Update README and Blog Posts
+name: Main Workflow
 
 on:
   schedule:
@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   update-files:
-    name: Update files
+    name: Update Stats and Blog Posts
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -31,69 +31,14 @@ jobs:
         run: curl -o temp-feeds.xml https://blog.beucismis.org/posts/index.xml
 
       - name: Update blog posts in TEMPLATE.md
-        shell: python
-        run: |
-          import re
-          import xml.etree.ElementTree as ET
-          from datetime import datetime
-          import os
-
-          FEED_FILE = 'temp-feeds.xml'
-          TARGET_FILE = 'TEMPLATE.md'
-          MAX_POSTS = 10
-          DATE_FORMAT = '%d %b %Y'
-          START_COMMENT = '<!-- BLOG-POST-LIST:START -->'
-          END_COMMENT = '<!-- BLOG-POST-LIST:END -->'
-          POST_TEMPLATE = "- {date} - <a href='{url}'>{title}</a> <br/>"
-
-          if not os.path.exists(FEED_FILE):
-              print(f"Feed file '{FEED_FILE}' not found. Skipping blog post update.")
-              exit(0)
-
-          try:
-              tree = ET.parse(FEED_FILE)
-              root = tree.getroot()
-              posts = []
-              for item in root.findall('.//item')[:MAX_POSTS]:
-                  title = item.find('title').text
-                  url = item.find('link').text
-                  pub_date_str = item.find('pubDate').text
-
-                  try:
-                      pub_date_obj = datetime.strptime(pub_date_str, '%a, %d %b %Y %H:%M:%S %z')
-                  except ValueError:
-                      pub_date_obj = datetime.strptime(pub_date_str, '%a, %d %b %Y %H:%M:%S')
-
-                  formatted_date = pub_date_obj.strftime(DATE_FORMAT)
-                  posts.append({'title': title, 'url': url, 'date': formatted_date})
-
-              new_content = '\n'.join([POST_TEMPLATE.format(date=p['date'], url=p['url'], title=p['title']) for p in posts])
-
-              with open(TARGET_FILE, 'r', encoding='utf-8') as f:
-                  file_content = f.read()
-
-              replacement_regex = f"({re.escape(START_COMMENT)}\\n).+?(\\n{re.escape(END_COMMENT)})"
-
-              # Ensure the markers exist before attempting replacement
-              if re.search(replacement_regex, file_content, re.DOTALL):
-                  new_file_content = re.sub(replacement_regex, f"\\1{new_content}\\2", file_content, flags=re.DOTALL)
-                  with open(TARGET_FILE, 'w', encoding='utf-8') as f:
-                      f.write(new_file_content)
-                  print(f"Successfully updated {TARGET_FILE} with {len(posts)} posts.")
-              else:
-                  # If markers are not found, search without newlines as a fallback
-                  replacement_regex_no_newline = f"({re.escape(START_COMMENT)}).+?({re.escape(END_COMMENT)})"
-                  if re.search(replacement_regex_no_newline, file_content, re.DOTALL):
-                      new_file_content = re.sub(replacement_regex_no_newline, f"\\1\n{new_content}\n\\2", file_content, flags=re.DOTALL)
-                      with open(TARGET_FILE, 'w', encoding='utf-8') as f:
-                          f.write(new_file_content)
-                      print(f"Successfully updated {TARGET_FILE} with {len(posts)} posts (fallback marker search).")
-                  else:
-                      print(f"Error: Could not find start/end comment markers in {TARGET_FILE}")
-                      exit(1)
-          except Exception as e:
-              print(f"An error occurred during blog post update: {e}")
-              exit(1)
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          readme_path: "TEMPLATE.md"
+          max_post_count: 10
+          feed_list: "${{ steps.check_url.outputs.status_code == '200' && 'https://blog.beucismis.org/posts/index.xml' || 'temp-feeds.xml' }}"
+          date_format: "d mmm yyyy"
+          template: "- $date - <a href='$url'>$title</a> <br/>"
+          skip_commit: true
 
       - name: Generate README.md from stats
         uses: teoxoy/profile-readme-stats@master
@@ -103,10 +48,31 @@ jobs:
       - name: Commit and push changes
         shell: bash
         run: |
-          if [[ "$(git status --porcelain)" != "" ]]; then
-            git config user.name 'github-actions[bot]'
-            git config user.email 'github-actions[bot]@users.noreply.github.com'
-            git add *.md temp-feeds.xml
-            git commit -m "Update README and blog posts"
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          COMMITS_MADE=false
+          TEMPLATE_CHANGED=$(git status --porcelain | grep -q "TEMPLATE.md" && echo "true" || echo "false")
+          FEEDS_CHANGED=$(git status --porcelain | grep -q "temp-feeds.xml" && echo "true" || echo "false")
+          if [ "$TEMPLATE_CHANGED" = true ]; then
+            echo "TEMPLATE.md changed. Committing blog posts."
+            git add TEMPLATE.md temp-feeds.xml
+            git commit -m "Update blog posts"
+            COMMITS_MADE=true
+          elif [ "$FEEDS_CHANGED" = true ]; then
+            echo "Only temp-feeds.xml changed. Committing feed file."
+            git add temp-feeds.xml
+            git commit -m "Update temp-feeds.xml"
+            COMMITS_MADE=true
+          fi
+          if git status --porcelain | grep -q "README.md"; then
+            echo "Stats changes detected. Committing."
+            git add README.md
+            git commit -m "Update stats"
+            COMMITS_MADE=true
+          fi
+          if [ "$COMMITS_MADE" = true ]; then
+            echo "Pushing changes."
             git push
+          else
+            echo "No changes to commit."
           fi
