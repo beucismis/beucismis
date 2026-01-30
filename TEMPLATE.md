@@ -22,18 +22,7 @@ Ever since I joined GitHub **6** years ago, I pushed **{{ COMMITS }}** commits, 
         - <a href="https://github.com/beucismis/koyunkapan">koyunkapan</a> - Source code for u/koyunkapan
       </td>
       <td valign="top">
-        <!-- BLOG-POST-LIST:START -->
-- 25 Dec 2025 - <a href='https://blog.beucismis.org/posts/custom-rom-installation-guide/'>Custom ROM Kurma Rehberi</a> <br/>
-- 31 Oct 2025 - <a href='https://blog.beucismis.org/posts/muzik-dinlemenin-bencesi/'>Müzik Dinlemenin Bencesi</a> <br/>
-- 22 Oct 2025 - <a href='https://blog.beucismis.org/posts/hayatin-anlaminin-bencesi/'>Hayatın Anlamının Bencesi</a> <br/>
-- 19 Oct 2025 - <a href='https://blog.beucismis.org/posts/lehimle-bi-seyler-yaptim/'>Lehimle Bi' Şeyler Yaptım</a> <br/>
-- 12 Oct 2025 - <a href='https://blog.beucismis.org/posts/caddy-server-auth/'>Caddy Server Yetkilendirme</a> <br/>
-- 22 Sep 2025 - <a href='https://blog.beucismis.org/posts/git-notes/'>Git Notları</a> <br/>
-- 22 Sep 2025 - <a href='https://blog.beucismis.org/posts/tv-show/'>TV Dizileri</a> <br/>
-- 19 Sep 2025 - <a href='https://blog.beucismis.org/posts/kibris-dortlusu-hayalin/'>Kıbrıs Dörtlüsü - Hayalin (1980) Şarkı Sözleri</a> <br/>
-- 18 Sep 2025 - <a href='https://blog.beucismis.org/posts/evde-sushi-yaptim/'>Evde Sushi Yaptım</a> <br/>
-- 12 Sep 2025 - <a href='https://blog.beucismis.org/posts/pilav-tarifi/'>Pilav Tarifi</a> <br/>
-<!-- BLOG-POST-LIST:END -->
+        <!-- BLOG-POST-LIST:START -->- 25 Dec 2025 - <a href='https://blog.beucismis.org/posts/custom-rom-installation-guide/'>Custom ROM Kurma Rehberi</a> <br/>- 31 Oct 2025 - <a href='https://blog.beucismis.org/posts/muzik-dinlemenin-bencesi/'>Müzik Dinlemenin Bencesi</a> <br/>- 22 Oct 2025 - <a href='https://blog.beucismis.org/posts/hayatin-anlaminin-bencesi/'>Hayatın Anlamının Bencesi</a> <br/>- 19 Oct 2025 - <a href='https://blog.beucismis.org/posts/lehimle-bi-seyler-yaptim/'>Lehimle Bi&#39; Şeyler Yaptım</a> <br/>- 12 Oct 2025 - <a href='https://blog.beucismis.org/posts/caddy-server-auth/'>Caddy Server Yetkilendirme</a> <br/>- 22 Sep 2025 - <a href='https://blog.beucismis.org/posts/git-notes/'>Git Notları</a> <br/>- 22 Sep 2025 - <a href='https://blog.beucismis.org/posts/tv-show/'>TV Dizileri</a> <br/>- 19 Sep 2025 - <a href='https://blog.beucismis.org/posts/kibris-dortlusu-hayalin/'>Kıbrıs Dörtlüsü - Hayalin &lpar;1980&rpar; Şarkı Sözleri</a> <br/>- 18 Sep 2025 - <a href='https://blog.beucismis.org/posts/evde-sushi-yaptim/'>Evde Sushi Yaptım</a> <br/>- 12 Sep 2025 - <a href='https://blog.beucismis.org/posts/pilav-tarifi/'>Pilav Tarifi</a> <br/><!-- BLOG-POST-LIST:END -->
       </td>
     </tr>
   </tbody>
