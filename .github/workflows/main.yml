@@ -53,4 +53,4 @@ jobs:
       - name: Generate README.md from stats
         uses: teoxoy/profile-readme-stats@master
         with:
-          token: ${{ secrets.USER_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
