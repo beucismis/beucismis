@@ -15,27 +15,30 @@ jobs:
   update-files:
     name: Update Stats and Blog Posts
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Configure Git
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Check URL status
+      - name: Check Blog Feed URL
         id: check_url
         run: |
           STATUS_CODE=$(curl -o /dev/null -s -w "%{http_code}" https://blog.beucismis.org/posts/index.xml)
           echo "status_code=$STATUS_CODE" >> "$GITHUB_OUTPUT"
-      - name: Fetch and save feed
-        if: steps.check_url.outputs.status_code == '200'
-        run: curl -o temp-feeds.xml https://blog.beucismis.org/posts/index.xml
 
-      - name: Update blog posts in TEMPLATE.md
+      - name: Fetch and Save Feed (Fallback)
+        if: steps.check_url.outputs.status_code != '200'
+        run: |
+          echo "<rss><channel></channel></rss>" > temp-feeds.xml
+
+      - name: Update Blog Posts in TEMPLATE.md
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           readme_path: "TEMPLATE.md"
@@ -43,41 +46,11 @@ jobs:
           feed_list: "${{ steps.check_url.outputs.status_code == '200' && 'https://blog.beucismis.org/posts/index.xml' || 'temp-feeds.xml' }}"
           date_format: "d mmm yyyy"
           template: "- <a href='$url'>$title</a> ($date) <br/>"
-          skip_commit: true
           committer_username: "github-actions[bot]"
           committer_email: "github-actions[bot]@users.noreply.github.com"
+          commit_message: "Update blog posts"
 
       - name: Generate README.md from stats
         uses: teoxoy/profile-readme-stats@master
         with:
           token: ${{ secrets.USER_TOKEN }}
-
-      - name: Commit and push changes
-        shell: bash
-        run: |
-          COMMITS_MADE=false
-          TEMPLATE_CHANGED=$(git status --porcelain | grep -q "TEMPLATE.md" && echo "true" || echo "false")
-          FEEDS_CHANGED=$(git status --porcelain | grep -q "temp-feeds.xml" && echo "true" || echo "false")
-          if [ "$TEMPLATE_CHANGED" = true ]; then
-            echo "TEMPLATE.md changed. Committing blog posts."
-            git add TEMPLATE.md temp-feeds.xml
-            git commit -m "Update blog posts"
-            COMMITS_MADE=true
-          elif [ "$FEEDS_CHANGED" = true ]; then
-            echo "Only temp-feeds.xml changed. Committing feed file."
-            git add temp-feeds.xml
-            git commit -m "Update temp-feeds.xml"
-            COMMITS_MADE=true
-          fi
-          if git status --porcelain | grep -q "README.md"; then
-            echo "Stats changes detected. Committing."
-            git add README.md
-            git commit -m "Update stats"
-            COMMITS_MADE=true
-          fi
-          if [ "$COMMITS_MADE" = true ]; then
-            echo "Pushing changes."
-            git push
-          else
-            echo "No changes to commit."
-          fi
