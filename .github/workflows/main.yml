@@ -21,6 +21,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Configure Git
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
       - name: Check URL status
         id: check_url
         run: |
@@ -48,8 +53,6 @@ jobs:
       - name: Commit and push changes
         shell: bash
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
           COMMITS_MADE=false
           TEMPLATE_CHANGED=$(git status --porcelain | grep -q "TEMPLATE.md" && echo "true" || echo "false")
           FEEDS_CHANGED=$(git status --porcelain | grep -q "temp-feeds.xml" && echo "true" || echo "false")
