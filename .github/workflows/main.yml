@@ -42,8 +42,10 @@ jobs:
           max_post_count: 10
           feed_list: "${{ steps.check_url.outputs.status_code == '200' && 'https://blog.beucismis.org/posts/index.xml' || 'temp-feeds.xml' }}"
           date_format: "d mmm yyyy"
-          template: "- $date - <a href='$url'>$title</a> <br/>"
+          template: "- <a href='$url'>$title</a> ($date) <br/>"
           skip_commit: true
+          committer_username: "github-actions[bot]"
+          committer_email: "github-actions[bot]@users.noreply.github.com"
 
       - name: Generate README.md from stats
         uses: teoxoy/profile-readme-stats@master
