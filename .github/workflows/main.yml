@@ -53,4 +53,20 @@ jobs:
       - name: Generate README.md from stats
         uses: teoxoy/profile-readme-stats@master
         with:
-          token: ${{ secrets.USER_TOKEN }}
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+          template: ./TEMPLATE.md
+          readme: ./README.md
+          includeForks: false
+
+      - name: Commit README if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet README.md; then
+            echo "No changes to commit"
+          else
+            git add README.md
+            git commit -m "Update stats"
+            git push
+          fi
