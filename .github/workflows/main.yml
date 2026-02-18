@@ -13,7 +13,6 @@ permissions:
 
 jobs:
   update-files:
-    name: Update Stats and Blog Posts
     runs-on: ubuntu-latest
 
     steps:
@@ -33,37 +32,42 @@ jobs:
           STATUS_CODE=$(curl -o /dev/null -s -w "%{http_code}" https://blog.beucismis.org/posts/index.xml)
           echo "status_code=$STATUS_CODE" >> "$GITHUB_OUTPUT"
 
-      - name: Fetch and Save Feed (Fallback)
-        if: steps.check_url.outputs.status_code != '200'
+      - name: Download Feed
         run: |
-          echo "<rss><channel></channel></rss>" > temp-feeds.xml
+          if [ "${{ steps.check_url.outputs.status_code }}" = "200" ]; then
+            echo "Feed reachable. Updating temp-feeds.xml"
+            curl -s https://blog.beucismis.org/posts/index.xml -o temp-feeds.xml
+          else
+            echo "Feed not reachable."
+            if [ ! -f temp-feeds.xml ]; then
+              echo "No existing temp-feeds.xml found. Creating empty file."
+              touch temp-feeds.xml
+            fi
+          fi
 
       - name: Update Blog Posts in TEMPLATE.md
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           readme_path: "TEMPLATE.md"
           max_post_count: 10
-          feed_list: "${{ steps.check_url.outputs.status_code == '200' && 'https://blog.beucismis.org/posts/index.xml' || 'temp-feeds.xml' }}"
+          feed_list: "temp-feeds.xml"
           date_format: "d mmm yyyy"
           template: "- <a href='$url'>$title</a> ($date) <br/>"
-          committer_username: "github-actions[bot]"
-          committer_email: "github-actions[bot]@users.noreply.github.com"
-          commit_message: "Update blog posts"
+          skip_commit: true
 
       - name: Generate README.md from stats
         uses: teoxoy/profile-readme-stats@master
         with:
           token: ${{ secrets.USER_TOKEN }}
 
-      - name: Commit README if changed
+      - name: Commit all changes if needed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          if git diff --quiet README.md; then
+          if git diff --quiet; then
             echo "No changes to commit"
           else
-            git add README.md
-            git commit -m "Update stats"
+            git add TEMPLATE.md README.md temp-feeds.xml
+            git commit -m "Update blog posts, stats, and feed"
             git push
           fi
