@@ -53,10 +53,7 @@ jobs:
       - name: Generate README.md from stats
         uses: teoxoy/profile-readme-stats@master
         with:
-          token: ${{ secrets.PROFILE_STATS_TOKEN }}
-          template: ./TEMPLATE.md
-          readme: ./README.md
-          includeForks: false
+          token: ${{ secrets.USER_TOKEN }}
 
       - name: Commit README if changed
         run: |
