@@ -2,68 +2,30 @@ name: Main Workflow
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # every 24 hours
   push:
     branches:
       - master
-  workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
-  update-files:
-    name: Update Stats and Blog Posts
+  publish:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-
-      - name: Configure Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Check Blog Feed URL
-        id: check_url
-        run: |
-          STATUS_CODE=$(curl -o /dev/null -s -w "%{http_code}" https://blog.beucismis.org/posts/index.xml)
-          echo "status_code=$STATUS_CODE" >> "$GITHUB_OUTPUT"
-
-      - name: Fetch and Save Feed (Fallback)
-        if: steps.check_url.outputs.status_code != '200'
-        run: |
-          echo "<rss><channel></channel></rss>" > temp-feeds.xml
-
-      - name: Update Blog Posts in TEMPLATE.md
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          readme_path: "TEMPLATE.md"
-          max_post_count: 10
-          feed_list: "${{ steps.check_url.outputs.status_code == '200' && 'https://blog.beucismis.org/posts/index.xml' || 'temp-feeds.xml' }}"
-          date_format: "d mmm yyyy"
-          template: "- <a href='$url'>$title</a> ($date) <br/>"
-          committer_username: "github-actions[bot]"
-          committer_email: "github-actions[bot]@users.noreply.github.com"
-          commit_message: "Update blog posts"
-
-      - name: Generate README.md from stats
+      - name: Generate README.md
         uses: teoxoy/profile-readme-stats@master
         with:
           token: ${{ secrets.USER_TOKEN }}
-
-      - name: Commit README if changed
+      - name: Update README.md
+        shell: bash
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          if git diff --quiet README.md; then
-            echo "No changes to commit"
-          else
-            git add README.md
-            git commit -m "Update stats"
+          if [[ "$(git status --porcelain)" != "" ]]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email 'github-actions[bot]@users.noreply.github.com'
+            git add *.md
+            git commit -m "Update README.md"
             git push
           fi
+          
